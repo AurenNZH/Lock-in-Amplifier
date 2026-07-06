@@ -1,0 +1,48 @@
+# Reports and local exports
+*.pdf
+image.png
+scheme1.png
+scheme2.png
+scheme3.png
+
+# LTspice generated outputs
+*.raw
+*.op.raw
+*.log
+
+# Version 1 material kept local for now
+LIA_DSPCode/
+LIA_NUCLEO_CODE/
+Auren,Wenjun,LockINamp_PCB/
+
+# Curated image set only
+LIA_IMG/*
+!LIA_IMG/
+!LIA_IMG/LIA_System_Mod.png
+!LIA_IMG/LIA_PCB.jpg
+!LIA_IMG/LIA_Flowchart.png
+!LIA_IMG/LIA_block.png
+
+# Archives and editor backups
+*.zip
+*.asv
+*.bak
+*.tmp
+*~
+
+# Build and tool caches
+Debug/
+Release/
+build/
+dist/
+.metadata/
+.settings/
+.cache/
+__pycache__/
+.pytest_cache/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
